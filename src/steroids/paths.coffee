@@ -17,7 +17,7 @@ class Paths
     packageJson: path.join @templatesDir, "applications", "default", "package.json"
 
   @grunt:
-    library: path.join @npm, "node_modules", "grunt", "lib", "grunt"
+    library: path.join @applicationDir, "node_modules", "grunt", "lib", "grunt"
     gruntfile: path.join @npm, "src", "steroids", "grunt", "grunt.js"
 
   @bower: path.join @npm, "node_modules", "bower", "bin", "bower"
